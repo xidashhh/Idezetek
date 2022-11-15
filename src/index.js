@@ -89,7 +89,6 @@ function hosszMegjelenites(idezetek){
 
 function darabMegjelenites(idezetek){
     let szerzo = document.getElementById('szerzoText').value;
-    console.log(szerzo)
     
     let darabSzam = 0;
 
