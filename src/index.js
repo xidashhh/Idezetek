@@ -100,6 +100,8 @@ function darabMegjelenites(idezetek){
         darabSzam++;
     }
 
+    document.getElementById('dbSzam').readOnly = false;
     document.getElementById('dbSzam').value = darabSzam;
+    document.getElementById('dbSzam').readOnly = true;
     
 }
